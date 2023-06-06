@@ -1,0 +1,50 @@
+#numero1, #numero2{
+    width:150px;
+    border: 2px solid #e042f5;
+    border-radius: 3px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+#b1,#b2,#b3,#b4{
+    width:78px;
+    color: #ffffff;
+    background-color: #e042f5;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+
+#b5,#b6,#b7,#b8{
+    width:160px;
+    color: #ffffff;
+    background-color: #e042f5;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#b9,#b10,#b11{
+    width:108px;
+    color: #ffffff;
+    background-color: #e042f5;
+    height: 40px;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+#resultado{
+    width:325px;
+    border: 2px solid #e042f5;
+    border-radius: 3px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}

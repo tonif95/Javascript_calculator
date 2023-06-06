@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <!--campos para que el usuario introduzca los numeros-->
+    <input type="text" id="numero1">
+    <input type="text" id="numero2">
+    <br><br>
+    <!--Botones para poner las funciones de la calculadora-->
+    <button onclick="sumar()" id="b1">+</button>
+    <button onclick="restar()" id="b2">-</button>
+    <button onclick="multiplicar()" id="b3">x</button>
+    <button onclick="dividir()" id="b4">/</button>
+    <br><br>
+    <button onclick="potenciar()" id="b5">Potencia</button>
+    <button onclick="raizar()" id="b6">Raiz</button>
+    <br><br>
+    <button onclick="absolutear()" id="b7">Absoluto</button>
+    <button onclick="randomear()" id="b8">Random</button>
+    <br><br>
+    <!--campo para que el usuario vea el resultado-->
+    <h2 id="resultado">0</h2>
+    <br><br>
+
+    <!--Botones para modificar el resultado-->
+
+    <button onclick="redondear()" id="b9">Round</button>
+    <button onclick="florear()" id="b10">Floor</button>
+    <button onclick="ceilear()" id="b11">Ceil</button>
+
+
+    
+</body>
+</html>
